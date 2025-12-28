@@ -1,14 +1,13 @@
 //first we make the function here 
 
-import { View, Text } from "react-native";
-
+import { Link } from "expo-router";
+import { View, Text, } from "react-native";
+import MyButton from "../components/MyButton";
 const Index = () => {
   return (
 
-    <View style={{ flex: 1, backgroundColor: "purple", justifyContent: "center", alignItems: "center" ,  }}>
-      {/* Your JSX code goes here */}
-      {/* For example, a simple text element  is written using h1 , h2 , so we will import Text from react-native */}
-      <Text style={{fontSize: 24, color: "white", fontWeight: "bold"}}>Hello, Bini !</Text>
+    <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
+      <MyButton/>
     </View>
   );
 }
