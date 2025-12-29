@@ -6,7 +6,7 @@ import MyButton from "../components/MyButton";
 const Index = () => {
   const router = useRouter();
   const onContinue = () => {
-    router.navigate("/login");
+    router.navigate("/newlogin");
   }
   return (
 
